@@ -2,7 +2,7 @@
 
 ![image](https://github.com/Dyest/Interface-PDI/assets/64050916/e11cc5f2-cd80-4482-86a2-02c1ae0a1452)
 
-Este é um projeto desenvolvido para a matéria de Processamento de Imagens e Reconhecimento de Padrões. Desenvolvido em Python utilizando as bibliotecas Tkinter, OpenCV e Pillow. O objetivo deste projeto é oferecer uma ampla gama de recursos para o processamento e manipulação de imagens, como conversões de cor, aplicação de filtros, detecção de bordas, binarização e morfologia matemática através de uma interface simples e intuitiva. 
+Este é um projeto desenvolvido para a matéria de Processamento de Imagens e Reconhecimento de Padrões desenvolvido em Python utilizando as bibliotecas Tkinter, OpenCV e Pillow. O objetivo deste projeto é oferecer uma ampla gama de recursos para o processamento e manipulação de imagens, como conversões de cor, aplicação de filtros, detecção de bordas, binarização e morfologia matemática através de uma interface simples e intuitiva. 
 
 ## Recursos 
 - **Conversão de Cores:** O usuário pode converter a imagem enviada para os padrão de cor RGB -> CIE L*a*b*, RGB -> XYZ, RGB -> HSV e RGB -> Gray.
