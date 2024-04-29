@@ -22,7 +22,7 @@ Requisitos necessarios: Python 3 e as bibliotecas Tkinter, OpenCV e Pillow.
 
 ## Instalação
 #### Repositório do projeto:
-git clone [https://github.com/ana-cdk/pdi-bimestral1.git](https://github.com/Dyest/Interface-PDI.git)
+git clone [(https://github.com/Dyest/Interface-PDI.git)](https://github.com/Dyest/Interface-PDI.git)
 
 
 ### Dependências:
