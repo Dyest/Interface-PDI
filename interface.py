@@ -321,7 +321,7 @@ def marcar_transformacao(transformacao):
 def criar_lista_transformacoes(frame):
     global caixa_texto
     frame.config(bg="black", bd=2, relief="groove", highlightbackground="black")  # Ajustes no frame para parecer com uma janela
-    caixa_texto = Text(frame, bg="black", fg="#00FF00", font=("Consolas", 12), width=96, height=19, highlightthickness=0)  # Ajustes na caixa de texto
+    caixa_texto = Text(frame, bg="black", fg="#00FF00", font=("Consolas", 12), width=74, height=13, highlightthickness=0)  # Ajustes na caixa de texto
     caixa_texto.pack(expand=True, fill="both")
     caixa_texto.config(state="disabled")
     
@@ -370,7 +370,7 @@ def excluir_transformacao():
 #exibe os botões para limpar a lista de transformação e remover uma unica trasformação
 def botoes_excluir_lista(frame):
     # Carregar a imagem do ícone
-    icone = Image.open("D:/OpenCV/interface PDI/icons/Trash.png")
+    icone = Image.open("./icons/Trash.png")
     icone = icone.resize((25, 20))  # Redimensionar o ícone se necessário
     icone = ImageTk.PhotoImage(icone)
 
@@ -380,7 +380,7 @@ def botoes_excluir_lista(frame):
     btnExcluir.pack(side="left", padx=15, pady=9)
 
 
-    icone = Image.open("D:/OpenCV/interface PDI/icons/Trash.png")
+    icone = Image.open("./icons/Trash.png")
     icone = icone.resize((25, 20))  # Redimensionar o ícone se necessário
     icone = ImageTk.PhotoImage(icone)
 
